@@ -518,8 +518,10 @@ footer {
 }
 
 .r-price-tab img {
-    width: 70%;
+    width: 73%;
+    height: 18px;
 }
+
 
 .r-price-list {
     width: 100%;
@@ -832,7 +834,7 @@ footer {
 .w-banner .w-icon {
     padding: 0 0.4rem;
     width: 100%;
-    top: 0;
+    top: 2px;
     position: absolute;
     z-index: 4;
 }
@@ -1223,7 +1225,7 @@ body {
 .W-myRadPaper {
     width: 100%;
     margin-top: 3rem;
-    height: 3rem;
+    height: 3.2rem;
     background: #fff;
 }
 
@@ -1262,7 +1264,7 @@ body {
 }
 
 .W-myRadPaper .w-itemRight p {
-    font-size: 12px;
+    font-size: 10px;
     line-height: 0.2rem;
     color: #888;
 }
@@ -1286,10 +1288,12 @@ body {
 }
 
 .w-redPaperTitle {
-    width: 10rem;
+    width: 73%;
+    height:18px;
+    margin-bottom: 8px !important;
     margin: 0 auto;
-    /* text-align: center; */
-    margin-bottom: 0.5rem;
+    text-align: center;
+    
 }
 
 .w-redPaperTitle img {
@@ -1297,22 +1301,30 @@ body {
 }
 
 .w-scrollFont {
-    width: 5rem;
+    /* width: 5rem;
     line-height: 0.8rem;
     padding: 0 0.2rem;
     color: #000;
     margin-bottom: 0.2rem;
     border-radius: 5px;
-    background-color: rgba(0, 0, 0, 0.5)
+    background-color: rgba(0, 0, 0, 0.5) */
+     /* text-align: center; */
+    margin: 0 auto; 
+    
+}
+.w-scrollFont marquee{
+    line-height: 12px;
+    text-align: center
 }
 
 .w-nearRedPaperItem,
 .w-sendRedPaper {
-    margin-bottom: 10px;
-    padding: 0.3rem;
+    margin-bottom: 15px;
+    padding:0.3rem;
     padding-bottom: 0;
+    
     width: 100%;
-    height: 132px;
+    height: 140px;
     border: 1px solid #e8c2c0;
     border-radius: 5px;
 }
@@ -1356,7 +1368,7 @@ body {
     float: left;
     height: 60px;
     position: relative;
-    margin-bottom: 15px;
+    margin-bottom: 20px;
 }
 
 .w-nearRedPaperItem .w-itemMiddle li:last-child {
@@ -1427,22 +1439,17 @@ body {
 
 .w-nearRedPaperItem .w-itemFooter li {
     font-size: 12px !important;
-    color: #b8403b;
+    color: #888;
 }
 
-.w-nearRedPaperItem .w-itemFooter li:first-child span:first-child {
-    padding: 0.2rem 0.2rem 0.15rem 0.2rem;
-    background-color: #fcabaf;
-    /* margin-right: 0.1rem; */
-    font-weight: 600;
-}
+
 
 .w-nearRedPaperItem .w-itemFooter li:nth-child(2) i {
     margin-bottom: 0.2rem;
     display: inline-block;
     padding-top: 0.1rem;
     padding: 0 0.2rem;
-    background: rgba(184, 64, 59, 0.6);
+    background: rgba(184, 64, 59, 0.3);
     color: #fff;
 }
 
@@ -1620,7 +1627,7 @@ body {
     bottom: 56px;
     border-radius: 5px;
     padding: 1px 10px;
-    right: 20px;
+    right: 25px;
     font-size: 10px;
     background-color: #ff1e36;
     color: #fff !important;
@@ -1751,7 +1758,7 @@ body {
     /* 红包页面 */
     .w-nearRedPaperItem .w-itemMiddle li {
         margin-right: 10px;
-        width: 17%;
+        width: 17.6%;
     }
     .w-itemTitle {
         font-size: 12px;
