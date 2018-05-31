@@ -1548,7 +1548,7 @@ body {
 
 .r-coupon-header ul .active a {
     display: block;
-    border-bottom: 1px solid #b8403b;
+    border-bottom: 2px solid #b8403b;
 }
 
 .r-coupon-header ul li a {
@@ -1627,10 +1627,15 @@ body {
     color: #ff2764!important;
 }
 
-
+.r-cp-c{
+    display: none;
+}
+.r-cp-c1-active{
+    display: block;
+}
 .r-cp-c-right-a {
     position: absolute;
-    width: 50px;
+    width: 56px;
     text-align: center;
     white-space: normal;
     bottom: 56px;
@@ -1735,6 +1740,9 @@ body {
     border-right: 1px solid #e5e5e5;
 }
 
+.r-cp-c-center-box1{
+    background-image: url("../images/r-imgs/过期@3x.png")
+}
 .banner-ad-box-ul1 li:first-child {
     border-right: 1px solid #e5e5e5;
 }
@@ -1767,7 +1775,7 @@ body {
     /* 红包页面 */
     .w-nearRedPaperItem .w-itemMiddle li {
         margin-right: 10px;
-        width: 17.6%;
+        width: 17.1%;
     }
     .w-itemTitle {
         font-size: 12px;
@@ -1861,6 +1869,7 @@ body {
         }
 
     }
+
 
     @media screen and (min-width: 360px) {
         .banner-ad-box {
