@@ -518,7 +518,7 @@ footer {
 }
 
 .r-price-tab img {
-    width: 74%;
+    width: 73%;
     height: 18px;
 }
 
@@ -1829,7 +1829,7 @@ body {
             font-weight: normal;
         }
         .r-cp-c-center{
-            width: 180px;
+            width: 190px;
         }
         .r-price-c a {
             right: 26px;
@@ -1865,6 +1865,18 @@ body {
     @media screen and (min-width: 360px) {
         .banner-ad-box {
             padding-bottom: 3rem;
+        }
+        .r-cp-c-center{
+            padding-left: 5px;
+        }
+       
+    }
+
+
+    @media screen and (min-width: 411px) {
+        .r-cp-c-center{
+            margin-top: 0;
+            padding-left: 0;
         }
        
     }
