@@ -206,6 +206,9 @@
             interval: 1800 //自动轮播周期，若为0则不自动播放，默认为0；
         });
     }, 300)
+    document.querySelector('body').addEventListener('touchmove', function(e) {
+        e.preventDefault();
+    })
 </script>
 
 </html>
