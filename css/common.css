@@ -1582,9 +1582,9 @@ body {
 
 .r-cp-c-center {
     margin-left: 6px;
-    width: 70%;
+    width: 69%;
     float: right;
-    margin-top: -98px;
+    /* margin-top: -98px; */
 }
 
 .r-cp-c-center h5 {
